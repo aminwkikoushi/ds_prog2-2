@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+}
+
+#forecast {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+  border-radius: 8px;
+}
+
+body {
+  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+select {
+  font-size: 16px;
+  padding: 6px 10px;
+  margin-bottom: 20px;
+}
+
+#forecast {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 6px 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.temp {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.temp .min {
+  color: #1e90ff;
+}
+
+.temp .max {
+  color: #e74c3c;
+}
