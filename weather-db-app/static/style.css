@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  background: #f2f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+select, input[type="date"] {
+  padding: 6px;
+  font-size: 16px;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.icon {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.temp {
+  font-size: 18px;
+}
+
+.min {
+  color: blue;
+}
+
+.max {
+  color: red;
+}
